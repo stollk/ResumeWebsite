@@ -1,0 +1,22 @@
+svg{
+	padding-left:200px;
+	padding-top:100px;
+}
+@keyframes clouds {
+  0%{
+	transform: translateX(1200px);
+  }
+  100% {
+    transform: translateX(-1100px);
+  }
+}
+.cls-cloud{
+
+  transform: translateX(1200px);
+  animation-timing-function: linear;
+  animation-name: clouds;
+  animation-iteration-count: infinite;
+  animation-duration: 120s;
+  animation-delay:none;
+  
+}
